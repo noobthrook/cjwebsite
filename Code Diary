@@ -1,0 +1,37 @@
+### Code Diary Entry – Starting a Practice Website
+
+We decided to build a small website for testing and practice purposes. The goal of this project is not to create a finished product, but to experiment, learn, and improve our web development skills.
+
+This website gives us the opportunity to try out different technologies, structures, and ideas in a practical environment.
+
+I would like to use this diary to document the entire process. This includes our decisions, problems we encounter, solutions we find, and everything we learn along the way.
+
+By documenting the process, we can better understand our progress and reflect on how our skills develop over time.
+
+
+
+### Code Diary Entry – Project Setup
+
+After we defined which elements we want to display (see draw.io file), we immediately started working on the project.
+
+We created a GitHub project to organize our work, manage the code, and keep track of changes.
+
+With everything set up, we are now ready to begin development.
+
+
+
+### Code Diary Entry – Improving Our HTML Structure
+
+During the development of our website, our initial approach was to structure the layout mainly using `<div>` elements. This is a very common method and works well for organizing content visually.
+
+However, while researching and learning more about modern web development practices, we discovered that newer semantic HTML elements such as `<main>`, `<section>`, `<article>`, `<header>`, and `<footer>` are now considered best practice.
+
+Because of this, we decided to rethink our approach and would like to introduce these semantic tags into our project from now on. Instead of relying heavily on generic `<div>` elements, we aim to structure our website using meaningful HTML elements that better describe the content.
+
+This change does not only bring advantages, but also follows the current web standard. Semantic HTML improves:
+- readability of the code  
+- accessibility (especially for screen readers)  
+- SEO (search engine optimization)  
+- maintainability of the project  
+
+For these reasons, we want to implement this approach directly moving forward and build our pages using semantic structure from the beginning.
