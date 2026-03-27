@@ -1,0 +1,48 @@
+/* Grund-Setup: Damit Paddings die Breite nicht sprengen */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Sorgt dafür, dass der Footer unten bleibt */
+}
+
+/* Der Hauptcontainer, der alles auf 1260px hält */
+.container {
+    width: 1260px;
+    margin: 0 auto; /* Zentriert das Layout */
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #fff;
+}
+
+/* Header & Footer über die volle Breite von 1260px */
+header, footer {
+    width: 100%;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+}
+
+/* Der Bereich zwischen Header und Footer */
+.main-wrapper {
+    display: flex;
+    width: 100%;
+}
+
+/* Hauptinhalt: Platz links */
+main {
+    flex: 1; /* Nimmt den restlichen Platz ein */
+    padding: 20px;
+    min-height: 600px; /* Nur ein Platzhalter */
+}
+
+    body {
+        margin-right: 0;
+    }
