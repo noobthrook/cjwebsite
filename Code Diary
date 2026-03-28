@@ -35,3 +35,13 @@ This change does not only bring advantages, but also follows the current web sta
 - maintainability of the project  
 
 For these reasons, we want to implement this approach directly moving forward and build our pages using semantic structure from the beginning.
+
+After we gathered a lot of experience with GitHub, it was decided that there should be a project manager who should maintain the repo. We also adjusted the layout with CSS to our ideas. A folder with images was created and a folder with texts. Today I personally made further changes and pushed incorrectly
+- now all the new changes are gone. This definitely means that we need more understanding in dealing with GitHub.
+
+reminder:
+
+1. Always pull before pushing - Make sure your local branch is up-to-date with the remote before pushing
+2. Use feature branches - Create separate branches for different changes rather than pushing directly to main
+3. Review before pushing - Use git status and git diff to verify what you're about to push
+4. Git history is recoverable - Your changes might still be in the Git reflog or commit history if they were committed
