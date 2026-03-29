@@ -1,62 +1,36 @@
-/* Grund-Reset */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-body {
-    font-family: Arial, sans-serif;
-}
-
 /* Header & Navigationsleiste */
 header {
     background-color: #333;
     width: 100%;
 }
 
-.nav-container {
-    width: 60%; /* Deine gewünschte Breite */
-    margin: 0 auto; /* Zentriert die Nav-Leiste (löschen für linksbündig) */
+header .nav-container {
+    width: 60%;  /* ← Nav-Bar auf 60% */
+    margin: 0 auto;  /* ← Zentrieren */
     background-color: #444;
 }
 
-.nav-container ul {
-    list-style: none;
-    display: flex; /* Macht die Liste waagrecht */
-    justify-content: space-around;
-    padding: 15px 0;
+/* Hero-Sektion */
+.main-container {
+    width: 60%;
+    margin: 0 auto;
 }
 
-.nav-container a {
-    color: white;
-    text-decoration: none;
-    font-weight: bold;
+.hero-wrapper {
+    width: 100%;  /* ← 100% von main-container (60%) */
+    background-color: #f0f0f0;
+    border: 2px solid #ddd;
 }
 
-.nav-container a:hover {
-    color: #ff9900;
-}
-
-/* Titelbild (Hero-Bereich) */
 .hero-image {
-    height: 400px; /* Höhe des Bildes */
+    height: 400px;
+    width: 100%;  /* ← 100% von hero-wrapper */
     background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
-                      url('/images/rizalTitle.webp'); /* Platzhalter-Bild */
+                      url('/images/rizalTitle.webp');
     background-size: cover;
     background-position: center;
     display: flex;
     justify-content: center;
     align-items: center;
     color: white;
-}
-
-.hero-text {
-    border-bottom: 3px solid rgba(255, 255, 255, 0.8);
-    padding: 15px 30px;
-}
-
-.hero-text h1 {
-    font-size: 3rem;
-    text-shadow: 2px 2px 4px rgba(0,0,0,0.7);
 }
