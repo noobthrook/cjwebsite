@@ -4,7 +4,7 @@
             width: 80%;
             margin: left;
             display: flex;
-            gap: 20px;
+
             padding: 20px;
             min-height: calc(100vh - 80px);
         }
@@ -38,39 +38,7 @@
             line-height: 1.6;
         }
 
-        /* Sidebar für Werbung
-        .sidebar {
-            width: 300px;
-            background-color: white;
-            border-radius: 5px;
-            padding: 20px;
-            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-            height: fit-content;
-        }
-
-        .ad-section {
-            background-color: #e8e8e8;
-            padding: 20px;
-            border-radius: 5px;
-            text-align: center;
-            margin-bottom: 20px;
-        }
-
-        .ad-section h3 {
-            color: #666;
-            margin-bottom: 10px;
-        }
-
-        .ad-placeholder {
-            background-color: #d0d0d0;
-            height: 250px;
-            border-radius: 3px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            color: #999;
-            font-size: 14px;
-        }
+        /
 /*
 
 
