@@ -1,59 +1,92 @@
-/* Grund-Setup: Damit Paddings die Breite nicht sprengen */
-* {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-}
+ /* Main Content Area */
+        .content {
+            flex: 1;
+            background-color: white;
+            border-radius: 5px;
+            overflow: hidden;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
 
-body {
-    font-family: sans-serif;
-    background-color: #f4f4f4;
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh; /* Sorgt dafür, dass der Footer unten bleibt */
-}
+        .content img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
 
-/* Der Hauptcontainer, der alles auf 1260px hält */
-.container {
-    width: 1260px;
-    margin: 0 auto; /* Zentriert das Layout */
-    display: flex;
-    flex-wrap: wrap;
-    background-color: #fff;
-}
+        .content-text {
+            padding: 20px;
+        }
 
-/* Header & Footer über die volle Breite von 1260px */
-header, footer {
-    width: 90%;
-    padding: 20px;
-    background-color: #333;
-    color: white;
-}
+        .content-text h2 {
+            color: #333;
+            margin-bottom: 10px;
+        }
 
-/* Der Bereich zwischen Header und Footer */
-.main-wrapper {
-    display: flex;
-    width: 75%;
-}
+        .content-text p {
+            color: #666;
+            line-height: 1.6;
+        }
 
-/* Hauptinhalt: Platz links */
-main {
-    flex: 1; /* Nimmt den restlichen Platz ein */
-    padding: 20px;
-    min-height: 600px; /* Nur ein Platzhalter */
-}
+        /* Sidebar für Werbung */
+        .sidebar {
+            width: 300px;
+            background-color: white;
+            border-radius: 5px;
+            padding: 20px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            height: fit-content;
+        }
 
-  body {
-      display: flex;
-      flex-wrap: nowrap;
-      margin: 0;
-      padding: 0;
-  }
+        .ad-section {
+            background-color: #e8e8e8;
+            padding: 20px;
+            border-radius: 5px;
+            text-align: center;
+            margin-bottom: 20px;
+        }
 
-  header {
-      flex: 0 0 75%;
-  }
+        .ad-section h3 {
+            color: #666;
+            margin-bottom: 10px;
+        }
 
-  .full-height-sidebar-ad {
-      flex: 0 0 25%;
-  }
+        .ad-placeholder {
+            background-color: #d0d0d0;
+            height: 250px;
+            border-radius: 3px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #999;
+            font-size: 14px;
+        }
+
+
+
+        /* Responsive Design
+        @media (max-width: 768px) {
+            .container {
+                flex-direction: column;
+            }
+
+            .sidebar {
+                width: 100%;
+                height: auto;
+            }
+
+            nav ul,
+            footer ul {
+                flex-direction: column;
+            }
+
+            nav li,
+            footer li {
+                border-bottom: 1px solid #444;
+            }
+
+            nav li:last-child,
+            footer li:last-child {
+                border-bottom: none;
+            }
+        }
+        +/

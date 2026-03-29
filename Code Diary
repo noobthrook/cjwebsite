@@ -45,3 +45,19 @@ reminder:
 2. Use feature branches - Create separate branches for different changes rather than pushing directly to main
 3. Review before pushing - Use git status and git diff to verify what you're about to push
 4. Git history is recoverable - Your changes might still be in the Git reflog or commit history if they were committed
+
+nun zum fachlichen css und html
+hier unsere vorstellung von <head>
+┌─────────────────────────────────────┐
+│        NAVIGATION (60% breit)       │  ← Ganz oben, zentriert
+├─────────────────────────────────────┤
+│                                     │
+│        TITELBILD (hero-image)       │  ← Direkt darunter
+│                                     │
+├─────────────────────────────────────┤
+│   ┌─ Kleiner Rahmen (60% breit) ─┐ │
+│   │  Das Rizal-Ufer              │ │  ← Unter dem Bild
+│   │  (Text aus text.md)          │ │
+│   └──────────────────────────────┘ │
+└─────────────────────────────────────┘
+wir haben dazu folgenden code verwendet
