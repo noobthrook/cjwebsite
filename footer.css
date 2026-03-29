@@ -1,13 +1,9 @@
-/* footer.css */
 footer {
-    width: 100%;
+    width:75%;
     padding: 25px 20px;
-    background-color: #222; /* Etwas dunkler für den Kontrast */
+    background-color: #222;
     color: #ffffff;
-    text-align: center;
-    margin-top: auto; /* Wichtig: Drückt den Footer nach unten */
+    text-align: left;
+    margin-top: auto;
 }
 
-footer a:hover {
-    text-decoration: underline;
-}

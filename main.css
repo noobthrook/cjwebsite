@@ -24,7 +24,7 @@ body {
 
 /* Header & Footer über die volle Breite von 1260px */
 header, footer {
-    width: 100%;
+    width: 90%;
     padding: 20px;
     background-color: #333;
     color: white;
@@ -33,7 +33,7 @@ header, footer {
 /* Der Bereich zwischen Header und Footer */
 .main-wrapper {
     display: flex;
-    width: 100%;
+    width: 75%;
 }
 
 /* Hauptinhalt: Platz links */
@@ -43,6 +43,17 @@ main {
     min-height: 600px; /* Nur ein Platzhalter */
 }
 
-    body {
-        margin-right: 0;
-    }
+  body {
+      display: flex;
+      flex-wrap: nowrap;
+      margin: 0;
+      padding: 0;
+  }
+
+  header {
+      flex: 0 0 75%;
+  }
+
+  .full-height-sidebar-ad {
+      flex: 0 0 25%;
+  }
