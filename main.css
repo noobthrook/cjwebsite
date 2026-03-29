@@ -1,16 +1,27 @@
  /* Main Content Area */
+/* Main Container */
+        .container {
+            width: 80%;
+            margin: left;
+            display: flex;
+            gap: 20px;
+            padding: 20px;
+            min-height: calc(100vh - 80px);
+        }
         .content {
-            flex: 1;
-            background-color: white;
-            border-radius: 5px;
+
+            background-color: none;
+            border-radius bottom: 5px;
             overflow: hidden;
             box-shadow: 0 2px 5px rgba(0,0,0,0.1);
         }
 
-        .content img {
-            width: 100%;
-            height: auto;
-            display: block;
+       .content img {
+           width: 100%;
+           height: auto;
+           margin: left;
+           padding: 20px 0;
+       }
         }
 
         .content-text {
@@ -27,7 +38,7 @@
             line-height: 1.6;
         }
 
-        /* Sidebar für Werbung */
+        /* Sidebar für Werbung
         .sidebar {
             width: 300px;
             background-color: white;
@@ -60,7 +71,7 @@
             color: #999;
             font-size: 14px;
         }
-
+/*
 
 
         /* Responsive Design

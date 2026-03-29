@@ -6,6 +6,7 @@
             top: 0;
             z-index: 100;
             box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+            width: 80%;
         }
 
         nav ul {
@@ -33,12 +34,3 @@
             background-color: #444;
         }
 
-        /* Main Container */
-        .container {
-            max-width: 1200px;
-            margin: 0 auto;
-            display: flex;
-            gap: 20px;
-            padding: 20px;
-            min-height: calc(100vh - 80px);
-        }
