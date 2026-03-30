@@ -1,12 +1,33 @@
-   header {
-     grid-area: header;
-     background: #3498db;
-     color: white;
-     padding: 2rem;
-     border-radius: 8px;
-   }
+.hcontainer {
+display: grid;
+grid-template-rows: 200px 1fr 100px;
+  grid-template-columns: 25% 25% 25% 25%;
+}
 
-    .wrapper {
-        justify-content: flex-start;
-       display:flex;
-     }
+header {
+
+  grid-column-start:1;
+  grid-column-end:5;
+  grid-row-start:1;
+  grid-row-end:2;
+  }
+
+.flex-item img {
+width: 25%;
+
+}
+.flex-container {
+display: flex;
+flex-direction: column;
+}
+.flex-item {
+display: flex
+min-width: 0;
+width: 100%%;
+
+}
+
+
+.flex-text {
+display: flex
+}
