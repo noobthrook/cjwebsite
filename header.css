@@ -6,6 +6,44 @@
     height: 190px;
 }
 
+/* Header Wrapper - Container für Bild und Text */
+.header-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    height: 100%;
+}
+
+/* Header Text - UNTEREINANDER */
+.header-text {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+}
+
+.header-text h1 {
+    font-size: 24px;
+    margin: 0;
+}
+
+.header-text p {
+    font-size: 14px;
+    opacity: 0.9;
+    margin: 0;
+}
+
+/* Header Bild - RECHTS */
+.header-image {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 8px;
+    flex-shrink: 0;
+}
+
 
 
 
