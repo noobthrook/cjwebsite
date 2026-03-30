@@ -21,6 +21,7 @@
     padding: 20px;
     flex: 1;
     min-height: 430px;
+    width: 80%;
 }
 /* Main container for main content and aside */
 .container {

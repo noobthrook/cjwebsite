@@ -1,6 +1,6 @@
 /* Header */
 .header {
-    background-color: #a20025;
+    background-color: #895129;
     color: #ffffff;
     padding: 20px;
     height: 190px;
@@ -8,8 +8,7 @@
 
 /* Header Wrapper - Container für Bild und Text */
 .header-wrapper {
-    display: flex;
-    align-items: center;
+    width: left;
     justify-content: space-between;
     gap: 20px;
     height: 100%;
@@ -37,10 +36,10 @@
 
 /* Header Bild - RECHTS */
 .header-image {
-    width: 150px;
-    height: 150px;
+    width: 1200px;
+    height: flex;
     object-fit: cover;
-    border-radius: 8px;
+    border-radius bottem: 8px;
     flex-shrink: 0;
 }
 
