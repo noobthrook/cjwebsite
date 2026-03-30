@@ -5,3 +5,8 @@
      padding: 2rem;
      border-radius: 8px;
    }
+
+    .wrapper {
+        justify-content: flex-start;
+       display:flex;
+     }
