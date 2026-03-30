@@ -6,6 +6,21 @@
     height: 60px;
     display: flex;
     align-items: center;
-    margin-top: auto;
-    width: 80%;
+    display: flex;
+    width: 100%;
+}
+   .footer-liste {
+     display: flex;
+     flex-wrap: wrap; /* Erlaubt Umbruch in neue Zeilen */
+     list-style: none; /* Entfernt Aufzählungspunkte */
+     padding: 0;
+     margin: 0;
+   }
+
+   .footer-liste li {
+
+     box-sizing: border-box; /* Berücksichtigt Padding in der Breite */
+     padding: 5px; /* Abstand zwischen den Elementen */
+   }
+
 }

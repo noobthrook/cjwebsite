@@ -1,24 +1,39 @@
 
-       .image-wrapper {
+/* Header Wrapper - Container für Bild und Text */
+.header-wrapper {
   display: flex;
   flex-direction: column; /* Bild und Text untereinander */
-  align-items: left;    /* Zentriert Bild und Text horizontal */
-  width: 90%;           /* Breite des Containers festlegen */
-  border-bottom: 1px solid #ccc; /* Optional: Rahmen */
+  align-items: center;    /* Zentriert Bild und Text horizontal */
+  width: 80%;           /* Breite des Containers festlegen */
+
   padding: 10px;          /* Optional: Innenabstand */
+
 }
 
-.image-wrapper img {
+/* Header Text - UNTEREINANDER */
+.header-text {
+    flex: 1;
+    display: column;
+
+    justify-content: center;
+    gap: 10px;
+}
+
+.header-text h1 {
+    font-size: 24px;
+    margin: 0;
+    flex-direction: column;
+}
+
+.header-text p {
+    font-size: 14px;
+    opacity: 0.9;
+    margin: 0;
+}
+
+/* Header Bild - RECHTS */
+.header-image {
   max-width: 100%;       /* Bild passt sich dem Wrapper an */
   height: auto;
-  margin-bottom: 2px;   /* Abstand zwischen Bild und Text */
-  align-items: left;
+  margin-bottom: 10px;   /* Abstand zwischen Bild und Text */
 }
-
-.image-caption {
-  text-align: center;     /* Text zentrieren */
-  font-size: 14px;
-  color: #333;
-}
-
-
