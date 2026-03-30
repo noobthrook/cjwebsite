@@ -63,3 +63,17 @@
 .nav-link:hover {
     background-color: rgba(255, 255, 255, 0.1);
 }
+/* Logo styling */
+.nav-logo {
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+    padding-left: 20px;
+    border-left: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.logo-img {
+    height: 50px;
+    width: auto;
+    object-fit: contain;
+}
