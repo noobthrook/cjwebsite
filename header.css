@@ -1,36 +1,11 @@
-/* Header & Navigationsleiste */
-header {
-    background-color: #333;
-    width: 100%;
+/* Header */
+.header {
+    background-color: #a20025;
+    color: #ffffff;
+    padding: 20px;
+    height: 190px;
 }
 
-header .nav-container {
-    width: 60%;  /* ← Nav-Bar auf 60% */
-    margin: 0 auto;  /* ← Zentrieren */
-    background-color: #444;
-}
 
-/* Hero-Sektion */
-.main-container {
-    width: 60%;
-    margin: 0 auto;
-}
 
-.hero-wrapper {
-    width: 100%;  /* ← 100% von main-container (60%) */
-    background-color: #f0f0f0;
-    border: 2px solid #ddd;
-}
 
-.hero-image {
-    height: 400px;
-    width: 100%;  /* ← 100% von hero-wrapper */
-    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
-                      url('/images/rizalTitle.webp');
-    background-size: cover;
-    background-position: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: white;
-}

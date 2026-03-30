@@ -1,71 +1,29 @@
- /* Main Content Area */
-/* Main Container */
-        .container {
-            width: 80%;
-            margin: left;
-            display: flex;
+/* Responsive design
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+    }
 
-            padding: 20px;
-            min-height: calc(100vh - 80px);
-        }
-        .content {
+    .aside {
+        width: 100%;
+        min-height: auto;
+    }
 
-            background-color: none;
-            border-radius bottom: 5px;
-            overflow: hidden;
-            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-        }
-
-       .content img {
-           width: 100%;
-           height: auto;
-           margin: left;
-           padding: 20px 0;
-       }
-        }
-
-        .content-text {
-            padding: 20px;
-        }
-
-        .content-text h2 {
-            color: #333;
-            margin-bottom: 10px;
-        }
-
-        .content-text p {
-            color: #666;
-            line-height: 1.6;
-        }
-
-        /
-/*
-
-
-        /* Responsive Design
-        @media (max-width: 768px) {
-            .container {
-                flex-direction: column;
-            }
-
-            .sidebar {
-                width: 100%;
-                height: auto;
-            }
-
-            nav ul,
-            footer ul {
-                flex-direction: column;
-            }
-
-            nav li,
-            footer li {
-                border-bottom: 1px solid #444;
-            }
-
-            nav li:last-child,
-            footer li:last-child {
-                border-bottom: none;
-            }
-        }
-        +/
+    .navbar, .header, .footer {
+        height: auto;
+    }
+}
+*/
+/* Main content area */
+.main {
+    background-color: #0000000;
+    color: #000000;
+    padding: 20px;
+    flex: 1;
+    min-height: 430px;
+}
+/* Main container for main content and aside */
+.container {
+    display: flex;
+    flex: 1;
+}
