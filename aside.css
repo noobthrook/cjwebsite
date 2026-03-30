@@ -1,8 +1,6 @@
-/* Sidebar */
-.aside {
-    background-color: #0050ef;
-    color: #ffffff;
-    padding: 20px;
-    width: 20%;
-
-}
+ aside {
+     grid-area: aside;
+     background: #ecf0f1;
+     padding: 1.5rem;
+     border-radius: 8px;
+   }

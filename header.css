@@ -1,39 +1,7 @@
-
-/* Header Wrapper - Container für Bild und Text */
-.header-wrapper {
-  display: flex;
-  flex-direction: column; /* Bild und Text untereinander */
-  align-items: center;    /* Zentriert Bild und Text horizontal */
-  width: 80%;           /* Breite des Containers festlegen */
-
-  padding: 10px;          /* Optional: Innenabstand */
-
-}
-
-/* Header Text - UNTEREINANDER */
-.header-text {
-    flex: 1;
-    display: column;
-
-    justify-content: center;
-    gap: 10px;
-}
-
-.header-text h1 {
-    font-size: 24px;
-    margin: 0;
-    flex-direction: column;
-}
-
-.header-text p {
-    font-size: 14px;
-    opacity: 0.9;
-    margin: 0;
-}
-
-/* Header Bild - RECHTS */
-.header-image {
-  max-width: 100%;       /* Bild passt sich dem Wrapper an */
-  height: auto;
-  margin-bottom: 10px;   /* Abstand zwischen Bild und Text */
-}
+   header {
+     grid-area: header;
+     background: #3498db;
+     color: white;
+     padding: 2rem;
+     border-radius: 8px;
+   }
