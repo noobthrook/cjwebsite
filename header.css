@@ -1,33 +1,6 @@
-.hcontainer {
-display: grid;
-grid-template-rows: 200px 1fr 100px;
-  grid-template-columns: 25% 25% 25% 25%;
-}
-
-header {
-
-  grid-column-start:1;
-  grid-column-end:5;
-  grid-row-start:1;
-  grid-row-end:2;
-  }
-
-.flex-item img {
-width: 25%;
-
-}
-.flex-container {
-display: flex;
-flex-direction: column;
-}
-.flex-item {
-display: flex
-min-width: 0;
-width: 100%%;
-
-}
+.tb {
+display: felx;
+flex-direktiom: column;
 
 
-.flex-text {
-display: flex
 }
