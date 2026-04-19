@@ -1,6 +1,6 @@
-.tb {
-display: felx;
-flex-direktiom: column;
-
-
+#logo{
+    grid-column: 1/2;
+    grid-row: 1/2;
+    height: 150px;
+    width: 150px;
 }

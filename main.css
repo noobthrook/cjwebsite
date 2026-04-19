@@ -1,7 +1,18 @@
- main {
-     grid-area: main;
-     background: #fff;
-     padding: 2rem;
-     border: 1px solid #ddd;
-     border-radius: 8px;
-   }
+
+.logo{
+
+
+}
+.logo1{
+     grid-column: 2/3;
+     grid-row: 1/2;
+     width: 20px;
+     height: 20px;
+}
+
+#logo{
+     grid-column: 1/2;
+     grid-row: 1/2;
+     height: 150px;
+     width: 150px;
+}
