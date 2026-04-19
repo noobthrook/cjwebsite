@@ -2,3 +2,20 @@
     grid-column: 1/4;
     grid-row: 4/5;
 }
+
+#footer-table{
+    a{
+        text-decoration: none;
+        color: #626510;
+    }
+
+    width: 100%;
+    text-align: center;
+    background-color: #43d42c;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    border-radius: 10px 10px;
+
+    
+    
+}
