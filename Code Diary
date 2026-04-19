@@ -61,3 +61,15 @@ hier unsere vorstellung von <head>
 │   └──────────────────────────────┘ │
 └─────────────────────────────────────┘
 wir haben dazu folgenden code verwendet
+
+### Code Diary Entry - Implementing Display grid (19.04.26)
+
+After gathering content material for the first website, we built a grid in CSS.
+Our grid has 4 columns and 4 rows.
+    row 1 will contain the header
+    row 2 contains the titleimage
+    row 3 is reserved for the main Text and its pictures
+    row 4 contains the footer
+
+    complete column 4 is reserved for the addBanner
+
