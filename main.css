@@ -1,18 +1,6 @@
-
-.logo{
-
-
-}
-.logo1{
-     grid-column: 2/3;
-     grid-row: 1/2;
-     width: 20px;
-     height: 20px;
-}
-
-#logo{
-     grid-column: 1/2;
-     grid-row: 1/2;
-     height: 150px;
-     width: 150px;
+.main{
+     grid-column: 1/4;
+     grid-row: 3/4;
+     height: 100%;
+     overflow: auto;
 }
