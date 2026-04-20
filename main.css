@@ -1,6 +1,6 @@
 .main{
      grid-column: 1/4;
      grid-row: 3/4;
-     height: 100%;
-     overflow-y: auto;
+
+
 }
