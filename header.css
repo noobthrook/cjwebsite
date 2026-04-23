@@ -13,13 +13,19 @@
     grid-column: 2/3;
     grid-row: 1/2;
 
-    #table {
+    table {
+        
         width: 100%;
-        text-align: left;
-        background-color: #F2AE49;
+        text-align: center;
+        background-color: #8c9015;
         padding-bottom: 30px;
         padding-top: 30px;
         border-radius: 10px 10px;
+        height: 150px;
+        a{
+            font-size: 130%;
+            color: #626510;
+        }
     }
 
     .menu {
