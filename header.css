@@ -24,13 +24,27 @@
         height: 150px;
         a{
             font-size: 130%;
-            color: #626510;
+            color: #343509;
+            text-decoration: none;
         }
     }
+}
 
     .menu {
         grid-column: 3/4;
         grid-row: 1/2;
+
+        table {
+            width: 100%;
+            height: 150px;
+            text-align: center;
+            background-color: #43d42c;
+            border-radius: 10px 10px;
+            a{
+                color: #626510;
+                text-decoration: none;
+            }
+        }
     }
 
     /* position des div im grid */
