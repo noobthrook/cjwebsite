@@ -73,3 +73,8 @@ Our grid has 4 columns and 4 rows.
 
     complete column 4 is reserved for the addBanner
 
+### Code Diary Entry - Layout suggestion for nav and menu (23.04.26)
+
+started styling the nav and menu
+right now all parts of the header use a pixel-defined heigth, making it none-responsive
+we will have to decide later whether to leave it like this or not 
