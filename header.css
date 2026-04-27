@@ -7,11 +7,17 @@
     grid-row: 1/2;
     height: 150px;
     width: 150px;
+    position: sticky;
+    top: 0;
+    z-index: 2;
 }
 
 .nav {
     grid-column: 2/3;
     grid-row: 1/2;
+    position: sticky;
+    top: 0;
+    z-index: 2;
 
     table {
         
@@ -33,6 +39,9 @@
     .menu {
         grid-column: 3/4;
         grid-row: 1/2;
+        position: sticky;
+        top: 0;
+        z-index: 2;
 
         table {
             width: 100%;
@@ -47,15 +56,44 @@
         }
     }
 
+    .headlineBackground{
+        grid-column: 1/4;
+        grid-row: 1/2;
+        z-index: 1;
+        background-color: black;
+        position: sticky;
+        top: 0;
+        border-radius: 10px 10px;
+    }
+
     /* position des div im grid */
 
     .ti {
         grid-column: 1/4;
         grid-row: 2/3;
+        z-index: 0;
 
         /* flexbox für das titelbild und text */
         display: flex;
         align-items: flex-start;
         flex-direction: column;
         grid-gap: 2px;
+
+        position: relative;
+
+        .tiText{
+            position: absolute;
+            left: 20px;
+            bottom: 0px;
+        }
+
+        img{
+            width: 100%;
+            padding-top: 20px;
+            padding-bottom: 60px;
+            background-color: #43d42c;
+            border-radius: 10px 10px;
+        }
+
+
     }
