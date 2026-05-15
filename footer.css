@@ -3,19 +3,25 @@
     grid-row: 4/5;
 }
 
-#footer-table{
+.footer-nav{
+    display: flex;
+    align-items: center;
+    background-color: #43d42c;
+    border-radius: 10px 10px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    justify-content: space-around;
+    
     a{
         text-decoration: none;
         color: #626510;
     }
-
-    width: 100%;
-    text-align: center;
-    background-color: #43d42c;
-    padding-bottom: 30px;
-    padding-top: 30px;
-    border-radius: 10px 10px;
-
     
+}
+
+.footer-column{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;       
     
 }
