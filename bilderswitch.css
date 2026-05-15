@@ -25,6 +25,13 @@
     scroll-snap-align: center;
 }
 
+.button-overlay {
+    position: absolute; /* Positioniert die Buttons ÜBER das Bild */
+    top: 20px;          /* Abstand von oben */
+    left: 20px;         /* Abstand von links */
+    display: flex;
+    gap: 10px;          /* Abstand zwischen den Buttons */
+}
 
 .gallery_nav {
     display: flex;
