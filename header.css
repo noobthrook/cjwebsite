@@ -12,28 +12,25 @@
     z-index: 2;
 }
 
-.nav {
+.navi {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #8c9015;
+    border-radius: 10px 10px;
     grid-column: 2/3;
     grid-row: 1/2;
     position: sticky;
     top: 0;
     z-index: 2;
-
-    table {
-        
-        width: 100%;
-        text-align: center;
-        background-color: #8c9015;
-        padding-bottom: 30px;
-        padding-top: 30px;
-        border-radius: 10px 10px;
-        height: 150px;
-        a{
-            font-size: 130%;
-            color: #343509;
-            text-decoration: none;
-        }
+    padding-bottom: 30px;
+    padding-top: 30px;
+    a{
+        font-size: 130%;
+        color: #343509;
+        text-decoration: none;
     }
+    
 }
 
     .menu {
@@ -64,6 +61,7 @@
         position: sticky;
         top: 0;
         border-radius: 10px 10px;
+        
     }
 
     /* position des div im grid */
